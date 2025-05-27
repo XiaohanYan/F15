@@ -1,0 +1,5 @@
+Set ws - CreateObject("WScript.Shell")
+Do
+Wscript.Sleep 30000
+ws.SendKeys"{f15}"
+Loop
