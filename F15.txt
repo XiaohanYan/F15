@@ -3,3 +3,10 @@ Do
 Wscript.Sleep 30000
 ws.SendKeys"{f15}"
 Loop
+
+
+Set ws = CreateObject("WScript.Shell")
+Do
+    WScript.Sleep 30000 ' Wait 30 seconds
+    ws.SendKeys "{F15}" ' Simulate F15 keypress
+Loop
